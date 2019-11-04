@@ -20,6 +20,8 @@ public class TestController {
     ISpringTransaction iSpringTransaction;
 
 
+
+
     @RequestMapping("/test1")
     public void test1(){
         iSpringTransaction.test1();
@@ -27,6 +29,8 @@ public class TestController {
 
     @RequestMapping("/test2")
     public void test2() throws CustomException {
+
+
         iSpringTransaction.test2();
     }
 
